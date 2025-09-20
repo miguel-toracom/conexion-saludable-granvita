@@ -1,0 +1,155 @@
+/* ====== Estilo Global ====== */
+:root {
+  --md-primary-fg-color: #3f51b5;   /* Indigo */
+  --md-accent-fg-color: #673ab7;    /* Deep Purple */
+  --md-default-bg-color: #fafafa;   /* Fondo gris claro */
+  --md-default-fg-color: #333333;   /* Texto principal */
+  --md-code-bg-color: #f5f7fa;      /* Fondo de bloques de código */
+  --md-code-fg-color: #212121;      /* Texto de bloques de código */
+}
+
+/* ====== Tipografía ====== */
+.md-typeset {
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* ====== Encabezados ====== */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.md-typeset h1 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.md-typeset h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: #3f51b5;
+}
+
+.md-typeset h3 {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  color: #673ab7;
+}
+
+/* ====== Tablas ====== */
+.md-typeset table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset table th {
+  background: #3f51b5;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.6rem;
+}
+
+.md-typeset table td {
+  padding: 0.6rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* ====== Bloques de código ====== */
+.highlight, .codehilite {
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+  overflow-x: auto;
+}
+
+/* ====== Mermaid ====== */
+.mermaid {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ====== Links ====== */
+.md-typeset a {
+  color: #3f51b5;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed #3f51b5;
+}
+
+.md-typeset a:hover {
+  color: #673ab7;
+  border-bottom: 1px solid #673ab7;
+}
+
+/* ====== Notas / Admonitions ====== */
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left-width: 6px;
+}
+
+.md-typeset .admonition.note {
+  border-color: #3f51b5;
+}
+
+.md-typeset .admonition.warning {
+  border-color: #ff9800;
+}
+
+.md-typeset .admonition.danger {
+  border-color: #f44336;
+}
+
+/* ====== Sidebar / Navegación ====== */
+.md-sidebar__inner {
+  font-size: 0.95rem;
+}
+
+.md-nav__title {
+  font-weight: 600;
+  color: #3f51b5;
+}
+
+/* ====== Footer ====== */
+.md-footer {
+  background: #3f51b5;
+  color: #fff;
+}
+
+.md-footer a {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.md-header__title {
+  font-size: 1.2rem;         /* opcional: más grande o más pequeño */
+  line-height: 48px;         /* alineado con el logo */
+}
+
+/* Ajustar tamaño del logo en el header */
+.md-header__button.md-logo img {
+  height: 48px !important;   /* aumenta el tamaño vertical */
+  width: auto !important;    /* mantiene proporción */
+  margin-right: 8px;         /* separa del texto */
+}
+
+/* Ajustar tamaño del logo en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .md-header__button.md-logo img {
+    height: 40px !important;
+  }
+}

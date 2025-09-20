@@ -1,0 +1,52 @@
+# --- Archivos del sistema macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- Archivos de sistema de Mac adicionales ---
+.Spotlight-V100
+.Trashes
+.fseventsd
+*.icloud
+
+# --- Archivos de editores ---
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+# Vim / Emacs
+*~
+*.swp
+*.swo
+*#
+
+# --- Python / MkDocs ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+.venv/
+env/
+ENV/
+venv/
+
+# --- MkDocs ---
+site/
+
+# --- Logs ---
+*.log
+
+# --- Otros ---
+# Archivos temporales de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
