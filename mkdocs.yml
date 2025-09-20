@@ -27,7 +27,7 @@ theme:
 nav:
   - Inicio: "index.md"
   - "Nort Start":
-    - "0.1 One-Slide - North Star de Conexión Saludable": "Nort Start/0.1 One‑Slide - North Star de Conexión Saludable"
+    - "0.1 One-Slide - North Star de Conexión Saludable": "Nort Start/0.1 One‑Slide - North Star de Conexión Saludable.md"
 
   - "Estrategia":
     - "Storydeck Comité Granvita 2026": "1 Estrategia/1.0 Storydeck Comité Granvita 2026.md"
