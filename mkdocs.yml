@@ -81,11 +81,6 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# Soporte Mermaid
-extra_javascript:
-  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
-  - javascripts/mermaid-init.js
-
 extra_css:
   - styles/extra.css
 
