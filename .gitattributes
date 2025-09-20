@@ -1,0 +1,31 @@
+# --- Forzar UTF-8 en Markdown y texto ---
+*.md text eol=lf working-tree-encoding=UTF-8
+*.txt text eol=lf working-tree-encoding=UTF-8
+*.yml text eol=lf working-tree-encoding=UTF-8
+*.yaml text eol=lf working-tree-encoding=UTF-8
+*.css text eol=lf working-tree-encoding=UTF-8
+*.js text eol=lf working-tree-encoding=UTF-8
+
+# --- Imágenes y binarios (no convertir line endings) ---
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.ico binary
+
+# --- Python y configuración ---
+*.py text eol=lf working-tree-encoding=UTF-8
+*.ini text eol=lf working-tree-encoding=UTF-8
+
+# --- Forzar LF en scripts (para evitar CRLF en Mac/Linux) ---
+*.sh text eol=lf
+
+# --- Documentos Office ---
+*.docx binary
+*.pptx binary
+*.xlsx binary
+
+# --- GitHub Pages (asegurar que index.html quede como texto UTF-8) ---
+*.html text eol=lf working-tree-encoding=UTF-8
