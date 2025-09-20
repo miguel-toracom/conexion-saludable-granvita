@@ -9,7 +9,7 @@ Enamorar al comité directivo de Granvita con una visión clara y sustentada par
 ## North Star y KPIs
 - **North Star**: **Profesionales activos al mes con interacción útil**. Se define como profesionales de la salud (médicos, nutriólogos, psicólogos, etc.) que interactúan al menos una vez al mes con un activo de Conexión Saludable (webinar, podcast, clip, encuesta o referido) y cuya interacción suma puntos en el scoring.
 - **Indicadores clave**: adquisición (nuevos registros y referidos), activación (tasa de apertura y clic en email/WhatsApp), engagement (minutos de consumo, share rate), retención (actividad a 30/60/90 días) y referidos (K‑factor).  
-  Ver el árbol de KPIs en el documento [North Star & KPI Tree](1.2%20North%20Star%20&%20KPI%20Tree%20–%20Conexión%20Saludable%202026.md).
+  Ver el árbol de KPIs en el documento [North Star & KPI Tree](1 Estrategia/1.2 North Star & KPI Tree – Conexión Saludable 2026.md).
 
 ## Pilares de la estrategia
 1. **Plataforma y datos** – Unificar la base (~3 000 registros) en un CRM/CDP, depurar, enriquecer y segmentar según especialidad, comportamiento y canal preferido. Implementar scoring de lead/engagement y automatizaciones omnicanal.
@@ -29,4 +29,4 @@ Con este plan, se busca triplicar la base de profesionales activos, elevar la re
 ## Próximos pasos
 - Revisar y validar esta síntesis con Meli y equipo e7 Creativa.
 - Confirmar el North Star y metas con el comité directivo.  
-- Iniciar la fase de diagnóstico técnico y diseño de journeys (ver [Blueprint](20%20Blueprint%20de%20Automation,%20CRM%20y%20CDP.md)).
+- Iniciar la fase de diagnóstico técnico y diseño de journeys (ver [Blueprint](2 Programa y Arquitectura/2.0 Blueprint de Automation, CRM y CDP.md)).
